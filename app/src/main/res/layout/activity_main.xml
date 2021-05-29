@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnMotivational"
+        android:layout_width="349dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="96dp"
+        android:background="#E53935"
+        android:text="MOTIVATIONAL"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAttitude"
+        android:layout_width="349dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="20dp"
+        android:background="#D81B60"
+        android:text="ATTITUDE"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMotivational" />
+
+    <Button
+        android:id="@+id/btnTravelling"
+        android:layout_width="349dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="20dp"
+        android:background="#8E24AA"
+        android:text="TRAVELLING"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAttitude" />
+
+    <Button
+        android:id="@+id/btnCollege"
+        android:layout_width="349dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="20dp"
+        android:background="#FB8C00"
+        android:text="COLLEGE"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSchool" />
+
+    <Button
+        android:id="@+id/btnSchool"
+        android:layout_width="349dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="20dp"
+        android:background="#1E88E5"
+        android:text="SCHOOL"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTravelling" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
